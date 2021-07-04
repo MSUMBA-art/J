@@ -11,6 +11,9 @@ console.log('Alexander is studying JavaScript');
 let fistNumber = 5;
 let secondNumber =10;
 let thirdNumber = fistNumber + secondNumber;
-console.log("SUM:", + thirdNumber);
+console.log("MSUMBA:", + thirdNumber);
 
-
+const firstName = 'Alexander';
+const lastName = 'Mr Msumba';
+const details =`${firstName} is the son of ${lastName}`;
+console.log(details);
