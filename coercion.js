@@ -1,3 +1,5 @@
+//coercion
+
 let a = 10;
 let b = "6";
 b = parseInt(b, 10);
