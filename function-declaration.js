@@ -22,12 +22,11 @@
 // sayHello("bertha");
 // sayHello("irene Msumba");
 
-function calculateTax(amount) {
-    let result = amount * 0.0825;
-    return result;
-}
+// function calculateTax(amount) {
+//     let result = amount * 0.0825;
+//     return result;
+// }
 
-let tax = calculateTax(100);
-console.log(tax);
-
+// let tax = calculateTax(100);
+// console.log(tax);
 
