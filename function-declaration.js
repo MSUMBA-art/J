@@ -12,13 +12,22 @@
 // a();
 // a();
 
-function sayHello(name) {
-    console.log('......................');
-    console.log('Hello: ' + name + '!');
-    console.log('............'); 
+// function sayHello(name) {
+//     console.log('......................');
+//     console.log('Hello: ' + name + '!');
+//     console.log('............'); 
+// }
+
+// sayHello("alex");
+// sayHello("bertha");
+// sayHello("irene Msumba");
+
+function calculateTax(amount) {
+    let result = amount * 0.0825;
+    return result;
 }
 
-sayHello("alex");
-sayHello("bertha");
-sayHello("irene Msumba");
+let tax = calculateTax(100);
+console.log(tax);
+
 
