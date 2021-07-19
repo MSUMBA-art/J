@@ -11,16 +11,25 @@
 // }
 
 //switch statement
-let hero ='Alex';
+/*let hero ='Alex';
 switch (hero) {
     case 'Alex':
         console.log('super strenght');
         console.log('x-ray vision');
-    case 'car':
         break;
+    case 'car':
+        
         console.log('clever');
         console.log('good');
+        break;
     default:
-        console.log('from MalAWI');
-
+        console.log('from MalAWI');       
 }
+*/
+
+//tenary operator
+let a = 1, b = '1';
+//let result = (a === b) ? 'equal' :'inequal'; //== is equal === inequal
+let result = (a != b) ? 'not equal' :'not equal';
+console.log(result);
+// console.log((a == b) ? 'equal' :'inequal');
