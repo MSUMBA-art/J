@@ -23,8 +23,12 @@ for (let b = 0; b < a.length; b++) {
   */
 
   let x = 1;
-  while (x < 10) {
+  while (x < 10) {  // while statement
     console.log(x++);
+
+    /*if (x === 7) {
+      break;
+    }*/
   }
   
 
