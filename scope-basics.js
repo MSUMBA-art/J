@@ -8,7 +8,7 @@ function scopeTest() {
     let b = 'second';
     if (a != '') {
         console.log(a);
-        console.log('inside if: ' + b);
+        console.log('ALEXANDER MSUMBA: ' + b);
         let c = 'third';
         
         
